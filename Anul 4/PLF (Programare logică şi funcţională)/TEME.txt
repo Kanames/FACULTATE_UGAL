@@ -1,0 +1,40 @@
+-Saptamana 2 – grupele 1+2+3-
+	Sa se creeze o functie la alegere, cu 2 sau 3 necunoscute. Sa se afiseze rezultatele
+	functiei pentru 3 valori introduse de la tastatura.
+
+Saptamana 3 – grupa 1
+	Sa se defineasca 4 laptop-uri cu cate 3 caracteristici fiecare (2 numerice si un sir de
+	caractere). Sa se creeze un predicat care sa aleaga un dispozitiv pentru doua
+	caracteristici citite de la tastatura si un predicat care sa aleaga un dispozitiv pentru o
+	caracteristica impusa prin program.
+Saptamana 3 – grupa 2
+	Sa se defineasca 4 smartphone cu cate 3 caracteristici fiecare (2 numerice si un sir de
+	caractere). Sa se creeze un predicat care sa aleaga un dispozitiv pentru doua
+	caracteristici citite de la tastatura si un predicat care sa aleaga un dispozitiv pentru o
+	caracteristica impusa prin program.
+Saptamana 3 – grupa 3
+	Sa se defineasca 4 Tv cu cate 3 caracteristici fiecare (2 numerice si un sir de
+	caractere). Sa se creeze un predicat care sa aleaga un dispozitiv pentru doua
+	caracteristici citite de la tastatura si un predicat care sa aleaga un dispozitiv pentru o
+	caracteristica impusa prin program.
+
+Saptamana 4 – grupa 1+2+3
+	Sa se defineasca, la alegere, un produs sau serviciu, cu 4 caracteristici. Sa se scrie
+	un predicat care sa citeasca de la tastatura 2 caracteristici impreuna cu intervalele
+	de valori (minim, maxim, limite, valori posibile) si sa se afiseze produsele care
+	satisfac toate conditiile.
+
+Saptamana 5 – grupa 1+2+3
+	Sa se realizeze un arbore cu cel putin 5 niveluri si 3 ramuri. Sa se defineasca
+	predicate care parcurg arborele. Se va realiza si desenul arborelui intr-un fisier
+	separat. Se va folosi exemplul de la rezolutie.
+
+Saptamana 6 – grupa 1
+	Sa se creeze doua liste cu elemente numere intregi, sa se determine cel mai mic
+	element din fiecare lista si sa se realizeze suma acestora.
+Saptamana 6 – grupa 2
+	Sa se creeze doua liste cu elemente numere reale, sa se determine cel mai mare
+	element din fiecare lista si sa se realizeze produsul acestora.
+Saptamana 6 – grupa 3
+	Sa se creeze doua liste cu elemente atomi, sa se determine lungimea fiecarei liste si
+	sa se realizeze produsul lungimilor.
