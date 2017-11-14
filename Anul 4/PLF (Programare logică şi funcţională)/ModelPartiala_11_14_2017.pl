@@ -34,7 +34,7 @@ write(NumePrducator),tab(3),write(Procesor),nl,write(RAM),nl.
 
 %punctul 3 solutia 1
 caracteristic(Cara):-
-		desktop(NumProd,Proc,Ram,[X|List]),	
+	desktop(NumProd,Proc,Ram,[X|List]),	
         printlist([X|List],Cara,NumProd).
 printlist([],Cara,NumProd):-nl,write('Nu sa gasit caracteristica !'),nl.
 printlist([X|List],Cara,NumProd) :-
