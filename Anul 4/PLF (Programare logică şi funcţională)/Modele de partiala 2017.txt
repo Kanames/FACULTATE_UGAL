@@ -1,0 +1,12 @@
+15/11/2017
+Sa se defineasca 5 oferte de centrale termice care sa aiba precizate urmatoarele caracteristici (producator, montare-murala/pardoseala, putere, pret, lista de caracteristici-numerice/atom/sir de caractere): Sa se realizeze câte un predicat pentru cautare:
+Nr.1:
+
+    1. putere mai mare de o valoare citita de la tastatura
+    2. un anumit producator introdus prin program
+    3. o singura caracteristica citita de la tastatura pe care o verifica în toate caracteristicile din lista
+Nr.2:    
+
+    1. Pre? mai mic decât o valoare citita de la tastatura
+    2. Un tip de montare introdus prin program
+    3. o singura caracteristica citita de la tastatura pe care o verifica în toate caracteristicile din lista
