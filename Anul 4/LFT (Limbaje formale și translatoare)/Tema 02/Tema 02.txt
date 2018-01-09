@@ -1,0 +1,2 @@
+Realizati un scanner care inlocuieste toate nr intregi dintr-un text cu corespondentele
+lor in baza 2. (1 punct)

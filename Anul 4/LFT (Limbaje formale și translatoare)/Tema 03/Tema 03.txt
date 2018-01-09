@@ -1,0 +1,3 @@
+Asupra unui text de intrare, realizati urmatoarea transformare: fiecare vocal/grup de
+vocale va fi precedat de grupul de litere av. De exemplu, pentru iar la scoala se va
+obtine aviar lava scavoalava. (1 punct)

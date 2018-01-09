@@ -1,0 +1,33 @@
+SIGN	[-+]
+DIGIT	[1-9]
+BASE_16_DIGIT [A-F]
+BASE_8_DIGIT [1-7]
+CHAR[a-zA-Z]
+
+%%
+
+0	printf("int");
+0[lL]	printf("long int");
+"00"	printf("int base 8");
+("0x"|"0X")0	printf("int base 16");
+{SIGN}"0"{BASE_8_DIGIT}(0|{BASE_8_DIGIT})+	printf("signet int base 8");
+"0"{BASE_8_DIGIT}(0|{BASE_8_DIGIT})+	printf("unsigned int base 8");
+{SIGN}{DIGIT}(0|{DIGIT})+	printf("signed int");
+{DIGIT}(0|{DIGIT})+	printf("unsigned int");
+{SIGN}{DIGIT}(0|{DIGIT})+[lL]	printf("signed long int");
+{DIGIT}(0|{DIGIT})+[lL]	printf("unsigned long int");
+{SIGN}("0x"|"0X")({DIGIT}|{BASE_16_DIGIT})(0|{DIGIT}|{BASE_16_DIGIT})+	printf("signed int base 16");
+("0x"|"0X")({DIGIT}|{BASE_16_DIGIT})(0|{DIGIT}|{BASE_16_DIGIT})+	printf("unsigned int base 16");
+(0|{DIGIT}+)"."(0|{DIGIT})+	printf("double");
+(0|{DIGIT}+)"."(0|{DIGIT})+[fF]	printf("float");
+(0|{DIGIT}+)"."(0|{DIGIT})+[lL]	printf("long double");
+(0|{DIGIT}+)"."(0|{DIGIT})+[eE]{SIGN}{DIGIT}+	printf("double scientific form");
+"\'"{CHAR}+"\'"	printf("character");
+"\""{CHAR}+(" "{CHAR}+)*"\""	printf("string");
+
+%%
+
+int main()
+{
+yylex();
+}

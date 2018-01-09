@@ -1,0 +1,4 @@
+Realizati un scanner care recunoaste intr-un program C constantele intregi (in baza
+10, 8, 16 si cele de tip intreg derivat: unsigned, etc.), constantele reale (simpla si
+dubla precizie, inclusiv cele in format stiintific si cele de tip derivat – long double,
+etc.), constantele caracter si cele sir de caractere. (2 puncte)
